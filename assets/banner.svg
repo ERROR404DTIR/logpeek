@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="logpeek">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c1917"/>
+      <stop offset="1" stop-color="#431407"/>
+    </linearGradient>
+    <linearGradient id="tx" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fbbf24">
+        <animate attributeName="stop-color" values="#fbbf24;#f87171;#fbbf24" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#f87171">
+        <animate attributeName="stop-color" values="#f87171;#fbbf24;#f87171" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="220" rx="18" fill="url(#bg)"/>
+  <g font-family="Consolas, Menlo, monospace" font-size="90" fill="#57534e" opacity="0.5">
+    <text x="40" y="150">[</text>
+    <text x="815" y="150">]</text>
+  </g>
+  <g font-family="Consolas, Menlo, monospace" font-size="14" fill="#fbbf24" opacity="0.5">
+    <text x="90" y="40">200 OK
+      <animate attributeName="opacity" values="0.1;0.7;0.1" dur="4s" repeatCount="indefinite"/></text>
+    <text x="700" y="190">GET /index.html
+      <animate attributeName="opacity" values="0.7;0.1;0.7" dur="4s" repeatCount="indefinite"/></text>
+    <text x="120" y="195">404
+      <animate attributeName="opacity" values="0.1;0.7;0.1" dur="5s" repeatCount="indefinite"/></text>
+    <text x="740" y="45">502
+      <animate attributeName="opacity" values="0.7;0.1;0.7" dur="5s" repeatCount="indefinite"/></text>
+  </g>
+  <text x="450" y="108" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="64" font-weight="700" fill="url(#tx)">logpeek</text>
+  <text x="450" y="146" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#d6d3d1">Understand any access log in one command. One file. Zero installs.</text>
+  <rect x="300" y="165" width="300" height="3" rx="1.5" fill="#44403c"/>
+  <rect x="300" y="165" width="60" height="3" rx="1.5" fill="#fbbf24">
+    <animate attributeName="x" values="300;540;300" dur="3s" repeatCount="indefinite"/>
+  </rect>
+</svg>
